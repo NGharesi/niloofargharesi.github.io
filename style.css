@@ -170,4 +170,12 @@ a:hover {
   .top-nav {
     gap: 20px;
   }
+.experience-block {
+  margin-bottom: 40px;
+}
+
+.skills {
+  font-size: 0.95rem;
+  color: #666;
+}
 }
