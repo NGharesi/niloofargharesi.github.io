@@ -97,7 +97,7 @@ a:hover {
 }
 
 section {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 70px 24px;
 }
@@ -113,6 +113,12 @@ section h3 {
   margin-top: 0;
   font-size: 22px;
   font-weight: 500;
+}
+
+section h4 {
+  margin: 30px 0 12px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 #vision {
@@ -164,16 +170,46 @@ section h3 {
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
-.project {
-  display: flex;
-  gap: 28px;
-  align-items: flex-start;
-  margin-bottom: 42px;
-  padding-bottom: 32px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+.project img {
+  display: block;
+  width: 220px;
+  max-width: 220px;
+  height: auto;
+  border-radius: 16px;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
-/* 🔥 ADD HERE */
+.project-text {
+  flex: 1;
+}
+
+.project-text p {
+  margin-top: 0;
+  margin-bottom: 14px;
+}
+
+.project-text ul {
+  margin-top: 0;
+  margin-bottom: 16px;
+  padding-left: 28px;
+}
+
+.project-text li {
+  margin-bottom: 10px;
+}
+
+.authors,
+.meta {
+  margin: 8px 0;
+  color: #666;
+}
+
+.meta {
+  font-size: 14px;
+}
+
+/* Featured project with horizontal figure on top */
 .project-feature {
   display: flex;
   flex-direction: column;
@@ -191,31 +227,9 @@ section h3 {
   width: 100%;
   max-width: 1100px;
   border-radius: 16px;
-  box-shadow: 0 12px 40px rgba(0,0,0,0.08);
-}
-
-.project img {
   display: block;
-  width: 220px;
-  max-width: 220px;
-  height: auto;
-  border-radius: 16px;
-  object-fit: cover;
-  flex-shrink: 0;
-}
-
-.project-text {
-  flex: 1;
-}
-
-.authors,
-.meta {
-  margin: 8px 0;
-  color: #666;
-}
-
-.meta {
-  font-size: 14px;
+  margin: 0 auto 20px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
 }
 
 .experience-block {
@@ -246,6 +260,12 @@ ul li {
   margin: 10px 0;
 }
 
+/* Optional cleaner spacing for published work section */
+#papers .project:last-child {
+  margin-bottom: 0;
+}
+
+/* Responsive */
 @media (max-width: 768px) {
   .top-nav {
     flex-wrap: wrap;
@@ -298,6 +318,16 @@ ul li {
   .project img {
     width: 100%;
     max-width: 100%;
+  }
+
+  .project-feature {
+    gap: 20px;
+  }
+
+  .project-full-image img {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
   }
 
   .vmg {
