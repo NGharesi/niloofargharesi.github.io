@@ -164,43 +164,6 @@ section h3 {
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
-.project {
-  display: flex;
-  gap: 28px;
-  align-items: flex-start;
-  margin-bottom: 42px;
-  padding-bottom: 32px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-}
-
-/* 🔥 ADD THIS RIGHT HERE */
-.project-vertical {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  padding: 40px;
-  border-radius: 18px;
-  background: #ffffff;
-  overflow: hidden;
-}
-
-.project-vertical::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image: url("Figs/Task.jpg");
-  background-size: cover;
-  background-position: center;
-  opacity: 0.06;
-  z-index: 0;
-}
-
-.project-vertical * {
-  position: relative;
-  z-index: 1;
-}
-
 .project img {
   display: block;
   width: 220px;
