@@ -219,17 +219,15 @@ section h4 {
 
 .project-full-image {
   width: 100%;
-  display: flex;
-  justify-content: center;
+  margin: 40px 0;
 }
 
 .project-full-image img {
   width: 100%;
-  max-width: 1100px;
-  border-radius: 16px;
+  height: auto;
+  border-radius: 18px;
   display: block;
-  margin: 0 auto 20px;
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.12);
 }
 
 .experience-block {
