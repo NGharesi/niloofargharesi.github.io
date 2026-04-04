@@ -2,52 +2,50 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Niloofar Gharesi</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+  <!-- NAVBAR -->
   <nav class="top-nav">
-    <a href="#who">Who I Am</a>
+    <a href="#about">Who I Am</a>
     <a href="#vision">Vision</a>
-    <a href="#research">Research</a>
     <a href="#papers">Published Work</a>
-    <a href="#learning">Learning</a>
     <a href="#experience">Experience</a>
-    <a href="#news">News</a>
     <a href="#contact">Contact</a>
   </nav>
 
- <header class="hero">
+  <!-- HERO -->
+  <section class="hero" id="about">
+    <div class="hero-container">
 
-  <div class="hero-container">
+      <div class="hero-text">
+        <h1>Niloofar Gharesi</h1>
 
-    <div class="hero-text">
-      <h1>Niloofar Gharesi</h1>
+        <p class="subtitle">
+          Health AI Engineer | Machine Learning for Human Data
+        </p>
 
-      <p class="subtitle">
-        Health AI Engineer | Machine Learning for Human Data
-      </p>
+        <p class="hero-description">
+          I build machine learning systems that transform complex, noisy human data into interpretable and real-world decisions.
+        </p>
+      </div>
 
-      <p class="hero-description">
-        I build machine learning systems that transform complex, noisy human data into interpretable and real-world decisions.
-      </p>
+      <div class="hero-image">
+        <img src="Figs/Niloofar_Gharesi.png" alt="Niloofar Gharesi">
+      </div>
+
     </div>
+  </section>
 
-    <div class="hero-image">
-      <img src="Figs/Niloofar_Gharesi.png" alt="Niloofar Gharesi">
-    </div>
-
-  </div>
-
-</header>
-
+  <!-- VISION / MISSION / VALUES -->
   <section id="vision">
-    <h2>Vision · Mission · Goal</h2>
+    <h2>Vision · Mission · Values</h2>
 
     <div class="vmg">
+
       <div class="vmg-block">
         <h3>Vision</h3>
         <p>
@@ -65,364 +63,106 @@
       <div class="vmg-block">
         <h3>Values</h3>
         <p>
-          Builder mindset, scientific rigor, real-world impact, building interpretable, reliable, accountable systems.
+          Builder mindset, scientific rigor, real-world impact, delivering interpretable systems with disciplined, accountable execution.
         </p>
       </div>
+
     </div>
   </section>
 
-  <section id="who">
-    <h2>Who I Am</h2>
-    <p>
-      I am an applied AI scientist working at the intersection of machine learning, neuroscience, and signal processing. My work focuses on building computational pipelines for high-dimensional, noisy, and multimodal human data.
-    </p>
-    <p>
-      I am especially interested in systems that combine scientific rigor with practical value in healthcare, human-centered AI, and real-world decision systems.
-    </p>
-  </section>
-
-  <section id="research">
-    <h2>Research</h2>
-
-    <div class="project">
-      <img src="assets/thesis.jpg" alt="PhD thesis work">
-
-      <div class="project-text">
-        <h3>Human Cortical Dynamics of Embodied Decision-Making, Outcome Monitoring, and Reward Prediction Errors</h3>
-
-        <p class="authors">
-          <strong>Niloofar Gharesi</strong>
-        </p>
-
-        <p class="meta">
-          PhD Thesis · McGill University · 2026
-        </p>
-
-        <p>
-          This work investigates how the human brain integrates perception, action, and feedback during decision-making using magnetoencephalography (MEG). The thesis focuses on neural mechanisms of embodied decision-making, outcome monitoring, and reward prediction errors, revealing how cortical dynamics support adaptive behavior under uncertainty.
-        </p>
-
-        <p>
-          <a href="https://escholarship.mcgill.ca/concern/theses/1831cr69d" target="_blank">View thesis</a>
-        </p>
-      </div>
-    </div>
-  </section>
-
+  <!-- PUBLISHED WORK -->
   <section id="papers">
     <h2>Published Work</h2>
+
+    <!-- FEATURED PROJECT -->
     <div class="project project-feature">
 
-  <!-- 🔥 IMAGE ON TOP -->
-  <div class="project-full-image">
-    <img src="Figs/your_pipeline_image.png" alt="MEG ML pipeline">
-  </div>
+      <!-- 🔥 IMAGE ON TOP -->
+      <div class="project-full-image">
+        <img src="Figs/Decision-making under uncertainty infographic.png" alt="MEG ML pipeline">
+      </div>
 
-  <!-- TEXT BELOW -->
-  <div class="project-text">
-    <h3>Neural Outcome Evaluation System (MEG)</h3>
-
-    <p class="meta">
-      Niloofar Gharesi · John F. Kalaska · Sylvain Baillet · 2026
-    </p>
-
-    <h4>1. Problem</h4>
-    <p>
-      Understanding how the brain evaluates decision outcomes under uncertainty, and whether reward prediction error–like signals emerge in deterministic settings.
-    </p>
-
-    <h4>2. What I Built</h4>
-    <ul>
-      <li>Built an end-to-end MEG pipeline including experimental design, REB approval, participant recruitment, and data acquisition</li>
-      <li>Engineered time-frequency features (alpha and beta bands) across cortical regions</li>
-      <li>Developed models linking neural dynamics to decision uncertainty and behavioral outcomes</li>
-    </ul>
-
-    <h4>3. Outcome</h4>
-    <p>
-      Identified beta-band signals reflecting context-dependent outcome evaluation, showing RPE-like dynamics strongest when correct outcomes were least expected.
-    </p>
-  </div>
-
-</div>
-
-    <div class="project project-feature">
-
-    <div class="project-text">
-      <h3>Neural Outcome Evaluation System (MEG)</h3>
-  
-      <p class="meta">
-        Niloofar Gharesi · John F. Kalaska · Sylvain Baillet · 2026
-      </p>
-  
-      <h4>1. Problem</h4>
-      <p>
-        Understanding how the brain evaluates decision outcomes under uncertainty, and whether reward prediction error–like signals emerge in deterministic settings.
-      </p>
-  
-      <h4>2. What I Built</h4>
-      <ul>
-        <li>Built an end-to-end MEG pipeline including experimental design, REB approval, participant recruitment, and data acquisition</li>
-        <li>Engineered time-frequency features (alpha and beta bands) across cortical regions</li>
-        <li>Developed models linking neural dynamics to decision uncertainty and behavioral outcomes</li>
-      </ul>
-  
-      <h4>3. Outcome</h4>
-      <p>
-        Identified beta-band signals reflecting context-dependent outcome evaluation, showing RPE-like dynamics strongest when correct outcomes were least expected.
-      </p>
-    </div>
-  
-    <div class="project-full-image">
-      <img src="Figs/your_pipeline_image.png" alt="MEG ML pipeline">
-    </div>
-  
-  </div>
-    
-    <div class="project">
-      <img src="Figs/PostiveRPE.jpg" alt="MEG decision-making task">
-
+      <!-- TEXT -->
       <div class="project-text">
-        <h3>Neural Signatures of Post-Decision Outcome Expectation and Evaluation in Human Sensorimotor Choice Behavior</h3>
 
-        <p class="authors">
-          <strong>Niloofar Gharesi</strong>, John F. Kalaska, Sylvain Baillet
-        </p>
+        <h3>Neural Outcome Evaluation System (MEG)</h3>
 
         <p class="meta">
-          bioRxiv · 2026
+          Niloofar Gharesi · John F. Kalaska · Sylvain Baillet · 2026
         </p>
 
+        <h4>1. Problem</h4>
         <p>
-          Investigated how the human brain evaluates decisions under uncertainty using magnetoencephalography (MEG). This work reveals that post-decision neural dynamics reflect both internally generated outcome expectations and feedback-driven evaluation signals, including reward prediction error-like responses.
+          Understanding how the brain evaluates decision outcomes under uncertainty, and whether reward prediction error–like signals emerge in deterministic settings.
         </p>
 
+        <h4>2. What I Built</h4>
+        <ul>
+          <li>Built an end-to-end MEG pipeline including experimental design, REB approval, participant recruitment, and data acquisition</li>
+          <li>Engineered time-frequency features (alpha and beta bands) across cortical regions</li>
+          <li>Developed models linking neural dynamics to decision uncertainty and behavioral outcomes</li>
+        </ul>
+
+        <h4>3. Outcome</h4>
         <p>
-          <a href="https://www.biorxiv.org/content/10.64898/2026.01.23.701339v1.full.pdf" target="_blank">Read preprint</a>
+          Identified beta-band signals reflecting context-dependent outcome evaluation, showing RPE-like dynamics strongest when correct outcomes were least expected.
         </p>
+
       </div>
+
     </div>
 
+    <!-- SECOND PAPER (example standard layout) -->
     <div class="project">
-      <img src="assets/project2.jpg" alt="Premotor cortex MEG task">
+
+      <img src="Figs/PositiveRPE.jpg" alt="MEG result">
 
       <div class="project-text">
-        <h3>Evaluation of Abstract Rule-Based Associations in the Human Premotor Cortex</h3>
-
-        <p class="authors">
-          <strong>Niloofar Gharesi</strong>, Lucie Luneau, John F. Kalaska, Sylvain Baillet
-        </p>
-
-        <p class="meta">
-          PMC · 2023
-        </p>
+        <h3>Post-Decision Neural Dynamics</h3>
+        <p class="meta">BioRxiv Preprint · 2026</p>
 
         <p>
-          Examined how the human premotor cortex encodes abstract rule-based associations during passive observation using magnetoencephalography (MEG). The results show that premotor activity reflects both correct and incorrect observed outcomes, even in the absence of overt motor actions, supporting a role for sensorimotor circuits in embodied decision-making and interpretation of non-biological events.
-        </p>
-
-        <p>
-          <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10274620/" target="_blank">Read paper</a>
+          Investigated neural signals underlying outcome expectation and evaluation using MEG and decision-making tasks.
         </p>
       </div>
+
     </div>
 
-    <div class="project">
-      <img src="assets/project3.jpg" alt="Parkinson's disease communication study">
-
-      <div class="project-text">
-        <h3>Moving Beyond Words: Co-Designing Artistic and Technological Avenues for Communicating Parkinson’s Disease Experience</h3>
-
-        <p class="authors">
-          Yueyue S. Hou, Amelia Robinson, <strong>Niloofar Gharesi</strong>, Alexandre Reynaud, Naila Kuhlmann
-        </p>
-
-        <p class="meta">
-          SocArXiv · 2024
-        </p>
-
-        <p>
-          Explored alternative approaches to communicating lived experiences of Parkinson’s disease through interdisciplinary collaboration combining art, technology, and neuroscience. This work focuses on bridging the gap between internal patient experiences and external communication, highlighting the role of co-designed, non-verbal methods in healthcare and human-centered research.
-        </p>
-
-        <p>
-          <a href="https://osf.io/preprints/socarxiv/b9auc_v1" target="_blank">Read preprint</a>
-        </p>
-      </div>
-    </div>
-
-    <div class="project">
-      <img src="assets/project4.jpg" alt="Neuro-wavelet bearing defect diagnosis study">
-
-      <div class="project-text">
-        <h3>A Neuro-Wavelet Based Approach for Diagnosing Bearing Defects</h3>
-
-        <p class="authors">
-          <strong>Niloofar Gharesi</strong>, Mohammad Mehdi Arefi, Roozbeh Razavi-Far, Jafar Zarei, Shen Yin
-        </p>
-
-        <p class="meta">
-          Advanced Engineering Informatics · 2020
-        </p>
-
-        <p>
-          Developed a neuro-wavelet framework for intelligent fault diagnosis in bearing systems. This work combines wavelet-based signal analysis with machine learning to improve defect detection accuracy in complex engineering signals, demonstrating how data-driven methods can support reliable condition monitoring and industrial diagnostics.
-        </p>
-
-        <p>
-          <a href="https://www.sciencedirect.com/science/article/abs/pii/S1474034620301439" target="_blank">Read paper</a>
-        </p>
-      </div>
-    </div>
   </section>
 
-  <section id="work-in-progress">
-    <h2>Work in Progress</h2>
-
-    <div class="project">
-      <img src="assets/project2.jpg" alt="Current research">
-
-      <div class="project-text">
-        <h3>Decision-Making Under Ambiguity in Dynamic Environments</h3>
-
-        <p class="authors">
-          <strong>Niloofar Gharesi</strong>, collaborators
-        </p>
-
-        <p class="meta">
-          Manuscript in preparation
-        </p>
-
-        <p>
-          Investigating how perceptual uncertainty shapes motor decisions using MEG and computational modeling, with a focus on decoding evolving decision states and linking neural dynamics to behavior.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <section id="collaborators">
-    <h2>Collaborators</h2>
-    <p>
-      My work has been shaped by interdisciplinary collaborations across neuroscience, machine learning, digital health, and human-centered research.
-    </p>
-    <ul>
-      <li>John F. Kalaska — sensorimotor neuroscience and decision-making</li>
-      <li>Sylvain Baillet — neuroimaging and computational neuroscience</li>
-      <li>Collaborators in Parkinson’s disease communication, AI, and translational research</li>
-    </ul>
-  </section>
-
-  <section id="reading">
-    <h2>Recent Reading & Workshops</h2>
-    <ul>
-      <li><strong>LLM and Hugging Face workflows</strong> — hands-on exploration of datasets, preprocessing, and model pipelines</li>
-      <li><strong>AI workshops</strong> — ongoing practical learning in transformer systems and applied machine learning tools</li>
-      <li><strong>Recent papers</strong> — selected reading in healthcare AI, LLMs, and human-centered machine learning</li>
-    </ul>
-  </section>
-
-  <section id="learning">
-    <h2>Learning in Progress</h2>
-    <p>
-      I document hands-on technical learning through structured GitHub notebooks and small applied projects.
-    </p>
-    <ul>
-      <li><strong>Hugging Face Datasets</strong> — setup, data loading, inspection, and preprocessing workflows</li>
-      <li><strong>LLM foundations</strong> — practical study of modern NLP and model pipelines</li>
-      <li><strong>Applied AI learning repo</strong> — organized notes and experiments designed to connect learning with implementation</li>
-    </ul>
-  </section>
-
-  <section id="events">
-    <h2>Upcoming Events</h2>
-    <ul>
-      <li>AI and healthcare workshops in Montreal</li>
-      <li>Applied AI and LLM events</li>
-      <li>Selected neuroscience and machine learning conferences</li>
-    </ul>
-  </section>
-
+  <!-- EXPERIENCE -->
   <section id="experience">
     <h2>Experience</h2>
 
-    <h3>Academia</h3>
-    <p>
-      Designed and conducted neuroscience experiments using MEG to study decision-making, outcome evaluation, and reward prediction mechanisms. Built end-to-end pipelines spanning data acquisition, preprocessing, feature extraction, modeling, and statistical validation.
-    </p>
-
-    <h3>Industry Experience</h3>
-    <p>
-      Applied machine learning in real-world environments, working with noisy, high-dimensional human data and building end-to-end pipelines that translate raw signals into meaningful insights.
-    </p>
-
     <div class="experience-block">
-      <h3>Aerial Technologies</h3>
+      <h3>Research Assistant – AI for Mental Health</h3>
+      <p class="meta">University of Toronto · 2025–Present</p>
       <p>
-        Developed machine learning approaches for analyzing multimodal sensor data in real-world indoor environments. Focused on extracting meaningful behavioral signals from noisy and incomplete data using unsupervised learning techniques.
-      </p>
-      <p>
-        Built data processing pipelines that transform raw sensor streams into structured representations for downstream modeling, with an emphasis on robustness and scalability.
-      </p>
-      <p class="skills">
-        Learned to work with real-world data constraints, handle uncertainty in sensor signals, and design feature extraction strategies that generalize beyond controlled settings.
+        Developed evaluation frameworks for LLM-based therapy simulations and behavioral analysis pipelines.
       </p>
     </div>
 
     <div class="experience-block">
-      <h3>National Research Council Canada (NRC)</h3>
+      <h3>PhD in Neuroscience</h3>
+      <p class="meta">McGill University · 2020–2026</p>
       <p>
-        Applied machine learning to longitudinal, time-resolved data to identify early indicators of cognitive decline. Designed feature extraction and modeling pipelines for high-dimensional behavioral signals.
-      </p>
-      <p>
-        Worked on interpretable models to bridge the gap between algorithmic predictions and clinically meaningful insights, supporting decision-making in healthcare contexts.
-      </p>
-      <p class="skills">
-        Learned to build end-to-end ML pipelines for real-world healthcare data, balance predictive performance with interpretability, and communicate results to non-technical stakeholders.
+        Built machine learning pipelines for MEG data and studied neural mechanisms of decision-making under uncertainty.
       </p>
     </div>
+
   </section>
 
-  <section id="news">
-    <h2>News</h2>
-    <ul class="news">
-      <li><strong>2026</strong> — Released bioRxiv preprint on neural signatures of outcome evaluation and reward prediction in human decision-making</li>
-      <li><strong>2026</strong> — Completed PhD in Neuroscience at McGill University</li>
-
-      <li><strong>2025</strong> — Presented poster at Canadian Association for Neuroscience (CAN-ACN): <em>Reward prediction errors in MEG under sensory conflict</em></li>
-      <li><strong>2025</strong> — Awarded <a href="https://www.mcgill.ca/ipn/finance-current-students/travel-awards" target="_blank">IPN GREAT Travel Award</a> ($500)</li>
-
-      <li><strong>2024</strong> — Presented poster at OHBM: <em>Human reach target selection under uncertainty</em></li>
-      <li><strong>2024</strong> — Awarded <a href="https://ipnawards.mcgill.ca/" target="_blank">Jeanne Timmins Costello Award</a> ($10,000)</li>
-      <li><strong>2024</strong> — Awarded <a href="https://ipnawards.mcgill.ca/" target="_blank">Joan and Warren Chippindale Outstanding Student Award</a> ($1,500)</li>
-      <li><strong>2024</strong> — Awarded <a href="https://rbiq-qbin.exposure.co/who-are-we" target="_blank">QBIN Travel Award</a> ($500)</li>
-      <li><strong>2024</strong> — Awarded <a href="https://www.mcgill.ca/ipn/finance-current-students/travel-awards" target="_blank">IPN GREAT Travel Award</a> ($300)</li>
-      <li><strong>2024</strong> — Completed Quebec Scientific Entrepreneurship Program (QcSE)</li>
-
-      <li><strong>2023</strong> — Presented poster at OHBM: <em>Amplitude–Phase Coupling: A new measure</em></li>
-      <li><strong>2023</strong> — Awarded <a href="https://www.mcgill.ca/hbhl/funded-projects/connect/connect-cycle-1" target="_blank">HBHL CONNECT Award</a> ($25,000)</li>
-
-      <li><strong>2022</strong> — Started working at National Research Council Canada (NRC), applying machine learning to time-resolved healthcare and behavioral data</li>
-      <li><strong>2022</strong> — Presented poster at IPN Retreat: <em>Non-motor decisions from motor circuits</em></li>
-      <li><strong>2022</strong> — Awarded <a href="https://frq.gouv.qc.ca/en/program/scholarships-2nd-and-3rd-cycle-2022-2023/" target="_blank">FRQNT Doctoral Fellowship</a> ($62,667)</li>
-      <li><strong>2022</strong> — Awarded <a href="https://www.mcgill.ca/hbhl/funding/gradfellowships" target="_blank">HBHL Fellowship</a> ($15,000, declined)</li>
-
-      <li><strong>2021</strong> — Started working at Aerial Technologies, applying machine learning to real-world sensor data and human motion analysis</li>
-      <li><strong>2021</strong> — Presented poster at OHBM: <em>Evaluation of correctness of non-biological events by motor cortex</em></li>
-      <li><strong>2021</strong> — Presented at NSERC-CREATE Annual Retreat: <em>Premotor cortex and non-motor decisions</em></li>
-      <li><strong>2021</strong> — Awarded <a href="https://www.mcgill.ca/neuro/training" target="_blank">Tom Gevas Student Travel Award</a> ($1,500)</li>
-      <li><strong>2021</strong> — Awarded <a href="https://www.mcgill.ca/hbhl/funded-projects/fellowships/fellowships-competition-8" target="_blank">HBHL Fellowship</a> ($15,000, declined)</li>
-
-      <li><strong>2020</strong> — Awarded <a href="https://www.nserc-crsng.gc.ca/Professors-Professeurs/Grants-Subs/CREATE-FONCER_eng.asp" target="_blank">NSERC-CREATE Complex Dynamics Fellowship</a> ($52,000)</li>
-      <li><strong>2020</strong> — Awarded <a href="https://www.mcgill.ca/neuro/training" target="_blank">Graduate Excellence Award</a> ($6,800)</li>
-      <li><strong>2020</strong> — Started PhD in Neuroscience at McGill University</li>
-    </ul>
-  </section>
-
+  <!-- CONTACT -->
   <section id="contact">
     <h2>Contact</h2>
-    <p>Email: your_email_here</p>
-    <p>LinkedIn: your_linkedin_here</p>
-    <p>GitHub: your_github_here</p>
+
+    <p>Email: your.email@example.com</p>
+    <p>
+      LinkedIn:
+      <a href="https://www.linkedin.com/in/niloofargharesi" target="_blank">
+        linkedin.com/in/niloofargharesi
+      </a>
+    </p>
   </section>
 
 </body>
