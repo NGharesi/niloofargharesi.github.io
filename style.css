@@ -1,4 +1,4 @@
-* {
+here is my style, can you refine it:* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -11,50 +11,9 @@ html {
 body {
   font-family: Arial, sans-serif;
   font-size: 17px;
-  line-height: 1.75;
-  color: #1f1f1f;
+  line-height: 1.7;
+  color: #1c1c1c;
   background-color: #faf8f4;
-}
-
-/* GLOBAL */
-img {
-  display: block;
-  max-width: 100%;
-}
-
-section {
-  max-width: 1180px;
-  margin: 0 auto;
-  padding: 90px 40px;
-}
-
-h2 {
-  font-size: 2.4rem;
-  line-height: 1.2;
-  margin-bottom: 34px;
-  color: #1f1f1f;
-}
-
-h3 {
-  font-size: 1.55rem;
-  line-height: 1.3;
-  margin-bottom: 16px;
-  color: #222;
-}
-
-p {
-  margin-bottom: 16px;
-  color: #333;
-}
-
-a {
-  color: #7b5c36;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-a:hover {
-  color: #5d4325;
 }
 
 /* NAVBAR */
@@ -62,8 +21,7 @@ a:hover {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: rgba(255, 255, 255, 0.96);
-  backdrop-filter: blur(8px);
+  background: #ffffff;
   border-bottom: 1px solid #e6e0d8;
   padding: 16px 40px;
   display: flex;
@@ -73,10 +31,10 @@ a:hover {
 }
 
 .top-nav a {
+  text-decoration: none;
   color: #2b2b2b;
-  font-size: 0.98rem;
+  font-size: 1rem;
   font-weight: 600;
-  transition: color 0.2s ease;
 }
 
 .top-nav a:hover {
@@ -85,42 +43,40 @@ a:hover {
 
 /* HERO */
 .hero {
-  padding: 90px 40px 70px;
+  padding: 85px 40px 60px;
   background: #f5f1ea;
 }
 
 .hero-container {
-  max-width: 1180px;
+  max-width: 1150px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 56px;
+  gap: 50px;
   flex-wrap: wrap;
 }
 
 .hero-text {
-  flex: 1 1 560px;
+  flex: 1 1 550px;
 }
 
 .hero h1 {
-  font-size: 3.5rem;
-  line-height: 1.08;
-  margin-bottom: 16px;
-  color: #1d1d1d;
+  font-size: 3.4rem;
+  margin-bottom: 14px;
+  color: #1e1e1e;
 }
 
 .subtitle {
-  font-size: 1.3rem;
+  font-size: 1.35rem;
   font-weight: 600;
   color: #7b5c36;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 
 .hero-description {
   max-width: 700px;
-  font-size: 1.12rem;
-  line-height: 1.8;
+  font-size: 1.15rem;
   color: #444;
 }
 
@@ -135,56 +91,53 @@ a:hover {
   object-fit: cover;
   border-radius: 50%;
   border: 6px solid #ffffff;
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
 
 /* SECTIONS */
-#vision h2 {
-  text-align: center;
-  margin-bottom: 40px;
+section {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 85px 40px;
+}
+
+h2 {
+  font-size: 2.3rem;
+  margin-bottom: 30px;
+  color: #1f1f1f;
+}
+
+h3 {
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+  color: #242424;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+a {
+  color: #7b5c36;
+}
+
+a:hover {
+  color: #5d4325;
 }
 
 /* VISION */
 .vmg {
-  display: flex;
-  gap: 28px;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
 }
 
 .vmg-block {
-  flex: 1;
   background: #ffffff;
-  padding: 34px 30px;
-  border-radius: 20px;
+  padding: 30px;
+  border-radius: 14px;
   border: 1px solid #e8e1d8;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
-  height: auto;
-  min-height: 0;
-}
-
-.vmg-block h3 {
-  font-size: 1.95rem;
-  margin-bottom: 22px;
-}
-
-.vmg-block p,
-.vmg-block li {
-  font-size: 1.06rem;
-  line-height: 1.8;
-  color: #2f2f2f;
-}
-
-.vmg-block ul {
-  padding-left: 22px;
-  margin-top: 8px;
-}
-
-.vmg-block li {
-  margin-bottom: 16px;
-}
-
-.vmg-block li:last-child {
-  margin-bottom: 0;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
 }
 
 /* PROJECT LAYOUT */
@@ -192,12 +145,12 @@ a:hover {
   display: flex;
   align-items: flex-start;
   gap: 32px;
-  margin-bottom: 40px;
+  margin-bottom: 44px;
   padding: 30px;
   background: #ffffff;
   border: 1px solid #e9e2d8;
-  border-radius: 18px;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
 }
 
 .project img {
@@ -211,11 +164,7 @@ a:hover {
 
 .project-text {
   flex: 1;
-  min-width: 180px;
-}
-
-.project-text h3 {
-  margin-bottom: 10px;
+  min-width: 160px;
 }
 
 .authors {
@@ -224,38 +173,41 @@ a:hover {
 }
 
 .meta {
-  color: #777;
-  font-size: 0.98rem;
-  margin-bottom: 14px;
+  color: #7a7a7a;
+  font-size: 1rem;
+  margin-bottom: 12px;
 }
 
-/* SHARED CARDS */
+/* CARDS */
 .learning-card,
-.experience-block,
-.impact-card {
+.experience-block {
   background: #ffffff;
   padding: 30px;
-  border-radius: 18px;
+  border-radius: 14px;
   border: 1px solid #e9e2d8;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
   margin-bottom: 24px;
 }
 
 /* IMPACT GRID */
 .impact-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   margin-top: 28px;
 }
 
 .impact-card {
+  background: #f8fafc;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.05);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .impact-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
 }
 
 /* LISTS */
@@ -281,20 +233,9 @@ ul li {
 }
 
 /* RESPONSIVE */
-@media (max-width: 1000px) {
-  .vmg {
-    flex-direction: column;
-  }
-
-  .impact-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
 @media (max-width: 900px) {
   .hero-container {
     flex-direction: column;
-    align-items: flex-start;
   }
 
   .project {
@@ -307,20 +248,20 @@ ul li {
     min-width: 0;
   }
 
+  .impact-grid {
+    grid-template-columns: 1fr;
+  }
+
   .hero h1 {
-    font-size: 2.8rem;
+    font-size: 2.7rem;
   }
 
   .subtitle {
-    font-size: 1.18rem;
+    font-size: 1.2rem;
   }
 
   .hero-description {
-    font-size: 1.05rem;
-  }
-
-  .hero-image {
-    align-self: center;
+    font-size: 1.08rem;
   }
 
   .hero-image img {
@@ -342,13 +283,13 @@ ul li {
   }
 
   section {
-    padding-top: 72px;
-    padding-bottom: 72px;
+    padding-top: 70px;
+    padding-bottom: 70px;
   }
 
   .hero {
-    padding-top: 68px;
-    padding-bottom: 54px;
+    padding-top: 65px;
+    padding-bottom: 50px;
   }
 
   .hero h1 {
@@ -360,11 +301,7 @@ ul li {
   }
 
   h3 {
-    font-size: 1.28rem;
-  }
-
-  .vmg-block h3 {
-    font-size: 1.7rem;
+    font-size: 1.25rem;
   }
 
   .hero-image img {
