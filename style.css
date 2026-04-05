@@ -164,7 +164,7 @@ a:hover {
 
 .project-text {
   flex: 1;
-  min-width: 260px;
+  min-width: 160px;
 }
 
 .authors {
