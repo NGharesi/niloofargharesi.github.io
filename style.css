@@ -8,6 +8,15 @@ html {
   scroll-behavior: smooth;
 }
 
+.footer {
+  background: #111827;
+  color: #d1d5db;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  letter-spacing: 0.3px;
+}
+
 body {
   font-family: Arial, sans-serif;
   font-size: 17px;
