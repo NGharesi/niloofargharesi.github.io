@@ -187,8 +187,6 @@ a:hover {
   margin-bottom: 24px;
 }
 
-/* 👉 ADD HERE */
-
 .impact-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -221,8 +219,6 @@ a:hover {
   margin-bottom: 0;
 }
 
-
-
 ul {
   padding-left: 22px;
   margin-top: 10px;
@@ -244,25 +240,22 @@ ul li {
   margin-bottom: 10px;
 }
 
-  @media (max-width: 900px) {
-
+@media (max-width: 900px) {
   .hero-container {
     flex-direction: column;
   }
 
   .project {
-    grid-template-columns: 1fr;
+    flex-direction: column;
   }
-
-  /* 👉 ADD THIS HERE */
-  .impact-grid {
-    grid-template-columns: 1fr;
-  }
-}
 
   .project img {
     width: 100%;
     max-width: 100%;
+  }
+
+  .impact-grid {
+    grid-template-columns: 1fr;
   }
 
   .hero h1 {
