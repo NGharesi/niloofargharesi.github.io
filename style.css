@@ -1,4 +1,4 @@
-here is my style, can you refine it:* {
+style:* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -14,6 +14,13 @@ body {
   line-height: 1.7;
   color: #1c1c1c;
   background-color: #faf8f4;
+}
+
+.affiliation {
+  font-size: 0.95rem;
+  color: #6b7280;
+  margin-top: 6px;
+  margin-bottom: 14px;
 }
 
 /* NAVBAR */
