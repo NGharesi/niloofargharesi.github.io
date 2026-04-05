@@ -154,8 +154,8 @@ a:hover {
 
 /* KEY FIX HERE */
 .project img {
-  width: 5%;        /* ↓ smaller than 55% */
-  max-width: 420px;  /* ↓ caps the size */
+  width: 40%;        /* ↓ smaller than 55% */
+  max-width: 220px;  /* ↓ caps the size */
   height: auto;
   border-radius: 12px;
   object-fit: contain;
