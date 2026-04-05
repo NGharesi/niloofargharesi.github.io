@@ -16,11 +16,16 @@ body {
   background-color: #faf8f4;
 }
 
-.affiliation span {
+.affiliation {
   display: inline-block;
-  padding: 6px 12px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1f2937;
   background: #f3f4f6;
-  border-radius: 8px;
+  padding: 8px 16px;
+  border-radius: 10px;
+  margin-top: 16px;
+  margin-bottom: 24px;
 }
 
 /* NAVBAR */
