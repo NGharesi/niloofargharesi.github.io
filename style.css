@@ -15,6 +15,7 @@ body {
   background-color: #faf8f4;
 }
 
+/* NAVBAR */
 .top-nav {
   position: sticky;
   top: 0;
@@ -39,6 +40,7 @@ body {
   color: #8a6a3f;
 }
 
+/* HERO */
 .hero {
   padding: 70px 40px 50px;
   background: #f5f1ea;
@@ -91,6 +93,7 @@ body {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
 
+/* SECTIONS */
 section {
   max-width: 1150px;
   margin: 0 auto;
@@ -121,6 +124,7 @@ a:hover {
   color: #5d4325;
 }
 
+/* VISION */
 .vmg {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -135,6 +139,7 @@ a:hover {
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
 }
 
+/* 🔥 FIXED PROJECT LAYOUT */
 .project {
   display: flex;
   align-items: flex-start;
@@ -147,16 +152,20 @@ a:hover {
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
 }
 
+/* KEY FIX HERE */
 .project img {
-  width: 240px;
-  max-width: 100%;
+  width: 55%;
+  max-width: 680px;
+  min-width: 320px;
+  height: auto;
   border-radius: 12px;
-  object-fit: cover;
+  object-fit: contain;
   flex-shrink: 0;
 }
 
 .project-text {
   flex: 1;
+  min-width: 260px;
 }
 
 .authors {
@@ -167,16 +176,10 @@ a:hover {
 .meta {
   color: #7a7a7a;
   font-size: 0.95rem;
-  margin-bottom: 14px;
+  margin-bottom: 10px;
 }
 
-.learning-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 24px;
-  margin-top: 24px;
-}
-
+/* CARDS */
 .learning-card,
 .experience-block {
   background: #ffffff;
@@ -187,6 +190,7 @@ a:hover {
   margin-bottom: 24px;
 }
 
+/* IMPACT GRID */
 .impact-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -207,18 +211,7 @@ a:hover {
   box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
 }
 
-.impact-card h3 {
-  font-size: 20px;
-  margin-bottom: 12px;
-  color: #1f2937;
-}
-
-.impact-card p {
-  font-size: 16px;
-  color: #374151;
-  margin-bottom: 0;
-}
-
+/* LISTS */
 ul {
   padding-left: 22px;
   margin-top: 10px;
@@ -240,7 +233,9 @@ ul li {
   margin-bottom: 10px;
 }
 
+/* 🔥 RESPONSIVE FIX */
 @media (max-width: 900px) {
+
   .hero-container {
     flex-direction: column;
   }
@@ -252,6 +247,7 @@ ul li {
   .project img {
     width: 100%;
     max-width: 100%;
+    min-width: 0;
   }
 
   .impact-grid {
